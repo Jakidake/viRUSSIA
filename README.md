@@ -22,6 +22,7 @@ To commit all files
 
 ```
 git add -a 
+git commit -m "description"
 ```
 
 To commit one files
