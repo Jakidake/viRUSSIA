@@ -15,7 +15,7 @@ git commit -m "Init"
 To push
 
 ```
-git origin https://github.com/broesel233/viRUSSIA.git
+git remote origin https://github.com/broesel233/viRUSSIA.git
 ```
 
 To commit all files
