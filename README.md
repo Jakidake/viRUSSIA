@@ -4,20 +4,32 @@ App to connect is for now: Simple TCP sockettester https://play.google.com/store
 
 To init own repo
 
-´´´
+```
 git init
 
 git add .
 
 git commit -m "Init"
-´´´
+```
 
 To push
 
-´´´
+```
 git origin https://github.com/broesel233/viRUSSIA.git
+```
 
+To commit all files
+
+```
+git add -a 
+```
+
+To commit one files
+
+```
 git commit -m "description"
+```
 
+```
 git push origin branchname --author="Name Author <e@mail.com>"
-´´´
+```
